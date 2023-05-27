@@ -1,0 +1,34 @@
+---
+---
+$text-color: black;
+$background-color: white;
+$border-color: grey;
+$hover-color: #f4f2f2;
+
+$base-font-family: "Playfair", serif;
+$cursive-font-family: "Allison", cursive;
+
+$text-padding: 4px;
+$item-padding: 16px;
+
+$content-width: 80vw;
+
+$nav-height: 10vh;
+
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+      @content;
+    }
+  }
+
+@import "default", "nav", "intro", "details", "faqs";

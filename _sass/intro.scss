@@ -1,0 +1,52 @@
+#intro {
+    height: calc(100vh - #{$nav-height});
+    width: $content-width;
+    text-align: center;
+}
+
+#intro, #intro div, #intro span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro div {
+    flex-direction: column;
+}
+
+#intro > span {
+    width: $content-width;
+    height: calc(100vh - (#{$nav-height} * 2));
+
+    align-self: flex-end;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#intro > span > div {
+    flex-grow: 2;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#intro img {
+    max-width: 80%;
+    max-height: 100%;
+}
+
+@include media-query($on-laptop) {
+    #intro img {
+        display: none;
+    }
+
+    #intro > span {
+        background-image: url("/assets/portrait.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    #intro .title {
+        margin-top: 25vh;
+    }
+}

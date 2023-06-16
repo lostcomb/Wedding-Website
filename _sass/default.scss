@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 html, body, h1, h2, h3, h4, p, a {
     margin: 0;
     padding: 0;
@@ -13,9 +9,11 @@ body {
 
     display: flex;
     flex-direction: column;
+
+    background-color: $background-color;
 }
 
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, p, a, input, label {
     font-family: $base-font-family;
     color: $text-color;
 }
@@ -32,4 +30,26 @@ ul {
 
 .cursive {
     font-family: "Allison", cursive;
+}
+
+.emphasis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emphasis::after, .emphasis::before {
+    content: "";
+    max-width: 20px;
+    width: 100%;
+    height: 3px;
+    background: $text-color;
+}
+
+.emphasis::before {
+    margin-right: $text-padding;
+}
+
+.emphasis::after {
+    margin-left: $text-padding;
 }

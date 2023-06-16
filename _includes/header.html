@@ -1,0 +1,16 @@
+<header>
+    <h1 class="fade-in">L</h1>
+    <h3 class="cursive fade-in">and</h3>
+    <h1 class="fade-in">D</h1>
+    <script>
+        function updateOpacity() {
+            const elements = document.getElementsByClassName("fade-in");
+            const opacity = Math.min(1.0, window.scrollY / window.innerHeight);
+
+            for (const element of elements) {
+                element.style.opacity = opacity;
+            }
+        }
+        document.addEventListener("scroll", updateOpacity);
+    </script>
+</header>

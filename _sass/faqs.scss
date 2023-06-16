@@ -1,27 +1,7 @@
 #faqs {
-    min-height: calc(100vh - (#{$nav-height} / 2));
-    padding-top: calc(#{$nav-height} / 2);
-
     text-align: center;
 }
 
-#faqs ul {
-    column-count: 3;
-}
-
-#faqs li {
-    break-inside: avoid;
+#faqs > ul > li {
     padding: $item-padding 0;
-}
-
-@include media-query($on-laptop) {
-    #faqs ul {
-        column-count: 2;
-    }
-}
-
-@include media-query($on-palm) {
-    #faqs ul {
-        column-count: 1;
-    }
 }

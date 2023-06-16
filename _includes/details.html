@@ -1,6 +1,6 @@
 <div id="details">
     <div>
-        <h1>Order of Events</h1>
+        <h1 class="emphasis">Order of Events</h1>
         <span>
             {%- for day in page.details.days -%}
             <div>
@@ -19,7 +19,7 @@
         </span>
     </div>
     <div>
-        <h1>Locations</h1>
+        <h1 class="emphasis">Locations</h1>
         <span>
             {%- for location in page.details.locations -%}
             <div>
@@ -28,5 +28,10 @@
             </div>
             {%- endfor -%}
         </span>
+    </div>
+    <div id="rsvp">
+        <form action="{{ site.rsvp_url }}" target="_blank">
+            <input type="submit" value="RSVP">
+        </form>
     </div>
 </div>

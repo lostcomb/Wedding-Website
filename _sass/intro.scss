@@ -1,5 +1,5 @@
 #intro {
-    height: calc(100vh - #{$nav-height});
+    height: 100vh;
     width: $content-width;
     text-align: center;
 }
@@ -18,7 +18,6 @@
     width: $content-width;
     height: calc(100vh - (#{$nav-height} * 2));
 
-    align-self: flex-end;
     border: 1px solid $border-color;
     border-radius: 5px;
     overflow: hidden;
@@ -35,24 +34,18 @@
     max-height: 100%;
 }
 
-@include media-query($on-laptop) {
+@include is-portrait {
     #intro img {
         display: none;
     }
 
     #intro > span {
-        background-image: url("/assets/portrait.jpg");
+        background-image: url("/assets/portrait-with-paper.jpg");
         background-size: cover;
         background-position: center;
     }
 
     #intro .title {
-        margin-top: 25vh;
-    }
-}
-
-@include media-query($on-palm) {
-    #intro {
-        height: calc(100vh - (#{$nav-height} * 1.5));
+        margin-top: 15vh;
     }
 }

@@ -3,11 +3,53 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="no-scroll">
+
+    {%- include password.html -%}
 
     {%- include intro.html -%}
 
-    {%- include nav.html -%}
+    {%- include header.html -%}
+
+    <h2 id="countdown" style="text-align: center;"></h2>
+    <script>
+        const SECOND_MS = 1000;
+        const MINUTE_MS = SECOND_MS * 60;
+        const HOUR_MS = MINUTE_MS * 60;
+        const DAY_MS = HOUR_MS * 24;
+        const POST = " to go!";
+
+        function getDeltaString(deltaMs) {
+            if (deltaMs < 0) {
+                return "";
+            } else if (deltaMs === DAY_MS) {
+                return "1 day" + POST;
+            } else if (deltaMs > DAY_MS) {
+                return Math.floor(deltaMs / DAY_MS) + " days" + POST;
+            } else if (deltaMs === HOUR_MS) {
+                return "1 hour" + POST;
+            } else if (deltaMs > HOUR_MS) {
+                return Math.floor(deltaMs / HOUR_MS) + " hours" + POST;
+            } else if (deltaMs === MINUTE_MS) {
+                return "1 minute" + POST;
+            } else if (deltaMs > MINUTE_MS) {
+                return Math.floor(deltaMs / MINUTE_MS) + " minutes" + POST;
+            } else if (deltaMs === SECOND_MS) {
+                return "1 second" + POST;
+            } else {
+                return Math.floor(deltaMs / SECOND_MS) + " seconds" + POST;
+            }
+        }
+
+        function update() {
+            const countdown = document.getElementById("countdown");
+            const ceremonyTime = new Date("2024-04-06T12:30:00+01:00");
+            const deltaMs = ceremonyTime - Date.now();
+            countdown.textContent = getDeltaString(deltaMs);
+        }
+        setInterval(update, 1000);
+        update();
+    </script>
 
     {%- include details.html -%}
 

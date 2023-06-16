@@ -1,7 +1,7 @@
 ---
 ---
 $text-color: black;
-$background-color: white;
+$background-color: #d6e2db;
 $border-color: grey;
 $hover-color: #f4f2f2;
 
@@ -15,20 +15,10 @@ $content-width: 80vw;
 
 $nav-height: 10vh;
 
-$on-palm: 600px !default;
-$on-laptop: 800px !default;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-      @content;
-    }
+@mixin is-portrait {
+  @media screen and (orientation: portrait) {
+    @content;
   }
+}
 
-@import "default", "nav", "intro", "details", "faqs";
+@import "default", "password", "intro", "header", "details", "faqs";

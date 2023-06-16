@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $text-padding;
+    position: sticky;
+    top: 0;
+    padding: $text-padding;
+    background-color: $background-color;
+}
+
+.fade-in {
+    opacity: 0;
+}

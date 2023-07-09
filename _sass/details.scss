@@ -25,6 +25,11 @@
     display: block;
 }
 
+#rsvp label {
+    display: block;
+    margin: $text-padding;
+}
+
 #rsvp input {
     font-size: larger;
     background-color: rgba(120, 120, 120, 0.2);

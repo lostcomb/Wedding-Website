@@ -5,10 +5,10 @@ details:
     - date: Saturday, 6th April 2024
       events:
         - title: Ceremony
-          time: 12:30pm
+          time: 1pm
           location: St Patrick's Church of Ireland
         - title: Reception
-          time: 2:30pm
+          time: 3pm
           location: Tankardstown House
     - date: Sunday, 7th April 2024
       events:
@@ -44,6 +44,9 @@ faqs:
         <li>Lauren: Phone 07747 669873 and Email <a href="mailto:lkeenan21@yahoo.co.uk">lkeenan21@yahoo.co.uk</a></li>
         <li>Duncan: Phone 07794 345478 and Email <a href="mailto:duncan.loscombe@gmail.com">duncan.loscombe@gmail.com</a></li>
       </ul>
+  - title: What is the dress code for the wedding?
+    answer: >
+      The dress code for the wedding day is formal, for example a suit and tie for men or dress and heels for women.
   - title: Where can I park at the church and Tankardstown?
     answer: >
       There is parking available along Main Street, in front of the Church. Otherwise it’s on street parking wherever you can find a space in Slane.</br></br>
@@ -57,7 +60,7 @@ faqs:
       You can also fly to Belfast, which is approximately a 1 hour 30 minute drive from the wedding.
   - title: Can I stay on the Tankardstown estate on the night of the wedding (Saturday)?
     answer: >
-      Yes, there are enough rooms on the estate for all of our guests to stay on the night of the wedding, at a bed & breakfast rate of 210 euros per room. All of the rooms are temporarily being held for our guests, so please indicate on the RSVP form if you would like one so we can confirm how many rooms we will need with the venue.</br></br>
+      Yes, there are enough rooms on the estate for all of our guests to stay the night of the wedding, if they wish to, at a bed & breakfast rate of 210 euros per room. All of the rooms are temporarily being held for our guests, so please indicate on the RSVP form if you would like one so we can confirm how many rooms we will need with the venue.</br></br>
       Here are some alternative accommodation options recommended by the venue:</br></br>
       <ul>
         <li><a href="https://www.boynehouseslane.ie/">Boyne House</a></li>
@@ -70,10 +73,10 @@ faqs:
       The venue is currently holding all the rooms for a wedding the day before, so a room the night before can’t be guaranteed.
   - title: Can I stay at Tankardstown the night of the second day (Sunday)?
     answer: >
-      Yes, rooms are available for all our guests the night after the wedding, at a reduced rate of 180 euros per night. Please again indicate on the RSVP form if you would like one.
+      Yes, rooms are available for all our guests the night after the wedding, if they wish to, at a rate of 180 euros per night. Please again indicate on the RSVP form if you would like one.
   - title: What is the plan for day two?
     answer: >
-      We are planning a BBQ from noon to 5pm on the Sunday to give us a bit more time to celebrate with all our favourite people. It’s not compulsory but we would love to see as many of you as possible. The dress code is smart casual (chinos and a shirt).
+      We are planning a BBQ from noon to 5pm on the Sunday to give us a bit more time to celebrate with all our favourite people. It’s not compulsory but we would love to see as many of you as possible. The dress code is smart casual, for example chinos and a shirt for men and a day dress for women.
   - title: How do we get back to Dublin after the second day?
     answer: >
       We’re thinking about putting on a coach after the second day back to Dublin. Please indicate whether you would find this useful when you RSVP.

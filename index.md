@@ -42,7 +42,7 @@ faqs:
       Feel free to contact us if you have any questions:</br></br>
       <ul>
         <li>Lauren: Phone 07747 669873 and Email <a href="mailto:lkeenan21@yahoo.co.uk">lkeenan21@yahoo.co.uk</a></li>
-        <li>Duncan: Phone 07794 345478 and Email <a href="mailto:duncan.loscombe@gmail.com">duncan.loscombe@gmail.com</a></li>
+        <li>Duncan: Phone 07794 245378 and Email <a href="mailto:duncan.loscombe@gmail.com">duncan.loscombe@gmail.com</a></li>
       </ul>
   - title: What is the dress code for the wedding?
     answer: >
